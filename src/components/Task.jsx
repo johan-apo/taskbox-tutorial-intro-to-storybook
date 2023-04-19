@@ -38,6 +38,7 @@ export default function Task({
           className="pin-button"
           onClick={() => onPinTask(id)}
           id={`pinTask-${id}`}
+          aria-label={`pinTask-${id}`}
           key={`pinTask-${id}`}
         >
           <span className="icon-star" />
