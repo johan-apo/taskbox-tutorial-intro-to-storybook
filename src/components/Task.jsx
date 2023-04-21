@@ -27,7 +27,6 @@ export default function Task({
           readOnly={true}
           name="title"
           placeholder="Input title"
-          style={{ background: "red" }}
         />
       </label>
 
@@ -39,7 +38,7 @@ export default function Task({
           aria-label={`pinTask-${id}`}
           key={`pinTask-${id}`}
         >
-          <span className={`icon-star`} />
+          <span className="icon-star" />
         </button>
       )}
     </div>
